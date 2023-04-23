@@ -1,0 +1,45 @@
+.progress {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .progressBar {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .progressBackground {
+    fill: none;
+    stroke: #f0f0f0;
+    stroke-width: 4;
+  }
+  
+  .progressIndicator {
+    fill: none;
+    stroke: #4c4cff;
+    stroke-width: 4;
+    stroke-linecap: round;
+    transform-origin: center;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+  
+  .progressPoint {
+    fill: #4c4cff;
+    stroke: #4c4cff;
+  }
+  
+  .progressLabel {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4c4cff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
